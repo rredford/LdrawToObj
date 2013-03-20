@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LdrawToObj">
+</Property><Property Name="Solution File" Value="C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\LdrawToObj.sln">
+</Property><Property Name="Date" Value="Friday, May 25, 2012">
+</Property><Property Name="Time" Value="20:14:22 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="RTree" Source="..\RTree\RTree.csproj" Description="Project file successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup1\RTree.csproj">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\Point.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup1\Point.cs">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\Rectangle.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup1\Rectangle.cs">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\Node.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup1\Node.cs">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\RTree.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup1\RTree.cs">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\LICENSE.txt" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup1\LICENSE.txt">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\RTree.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RTree" Source="..\RTree\RTree.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\RTree.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

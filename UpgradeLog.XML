@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LdrawToObj">
+</Property><Property Name="Solution File" Value="C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\LdrawToObj.sln">
+</Property><Property Name="Date" Value="Friday, May 25, 2012">
+</Property><Property Name="Time" Value="14:32:33 PM">
+</Property></Properties><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\KDTreeDLL.csproj" Description="Project file successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\KDTreeDLL.csproj">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\HPoint.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\HPoint.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\HRect.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\HRect.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\KDTree.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\KDTree.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\KeyDuplicateException.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\KeyDuplicateException.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\KeyMissingException.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\KeyMissingException.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\KeySizeException.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\KeySizeException.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\NearestNeighborList.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\NearestNeighborList.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\PriorityQueue.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\PriorityQueue.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Rolf\Documents\Visual Studio 2010\Projects\LdrawToObj\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\KDTreeDLL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\KDTreeDLL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KDTreeDLL" Source="..\KDTreeDLL\KDTreeDLL\KDTreeDLL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
