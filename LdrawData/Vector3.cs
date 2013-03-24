@@ -621,6 +621,8 @@ namespace LdrawData
 
         }
 
+        public static bool Equals(Vector3 v1, Vector3 v2) { return v1 == v2; }
+
 
 
         /// <summary>
@@ -1464,6 +1466,28 @@ namespace LdrawData
 
             this = SqrtComponents(this);
 
+        }
+
+        public static double sqrdist(Vector3 x, Vector3 y)
+        {
+
+            double dist = 0;
+            double diff;
+            diff = x.X - y.X;
+            dist += (diff * diff);
+            diff = x.Y - y.Y;
+            dist += (diff * diff);
+            diff = x.Z - y.Z;
+            dist += (diff * diff);
+
+            return dist;
+
+        }
+
+        public static double eucdist(Vector3 x, Vector3 y)
+        {
+
+            return Math.Sqrt(sqrdist(x, y));
         }
 
 

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using KDTreeDLL;
+
 namespace LdrawData
 {
     public class PointsManager
@@ -12,6 +14,7 @@ namespace LdrawData
 
         public PointsManager()
         {
+            kd = new KDTree(3);
         }
 
         public int addOrNearest(Vector3 v)
@@ -21,13 +24,15 @@ namespace LdrawData
 
             if (points.Count > 0)
             {
-                n = kd.FindNearest(v); // get nearest
+                n = (int) kd.nearest( v.Array ); // get nearest
                 N = points.ElementAt(n);
+
                 if (N.Distance(v) > 0.00001) // nearest one is too far.
                 {
-                    // add and rebuild kd
+                    // add poinbt to Points list and KD insert.
+                    kd.insert(v.Array, points.Count);
                     points.Add(new Vector3(v));
-                    kd = KDTree.MakeFromPoints(points.ToArray());
+                    //kd = KDTree.MakeFromPoints(points.ToArray());
                     return points.Count;
                 }
                 else
@@ -35,10 +40,11 @@ namespace LdrawData
             }
             else // No other point, add 
             {
-                // add and rebuild kd
+                // add both points and kd tree item
+                kd.insert(v.Array, 0);
                 points.Add(new Vector3(v));
-                kd = KDTree.MakeFromPoints(points.ToArray());
-                return points.Count - 1;
+                //kd = KDTree.MakeFromPoints(points.ToArray());
+                return points.Count;
             }
 
         }
@@ -46,7 +52,8 @@ namespace LdrawData
         public void clear()
         {
             points.Clear();
-            kd = null;
+            //kd = null;
+            //kd = new KDTree();
         }
 
     }

@@ -2,8 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LdrawData", "LdrawData\LdrawData.csproj", "{50DEC23E-336C-458F-B7F8-8C17DCDDDC27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03} = {0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LdrDat2Obj", "WindowsFormsApplication1\LdrDat2Obj.csproj", "{DFBA0CE4-B20C-43E1-9742-A11C974001CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03} = {0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDTreeDLL", "KDTreeDLL\KDTreeDLL.csproj", "{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +43,16 @@ Global
 		{DFBA0CE4-B20C-43E1-9742-A11C974001CC}.Release|Mixed Platforms.Build.0 = Release|x86
 		{DFBA0CE4-B20C-43E1-9742-A11C974001CC}.Release|x86.ActiveCfg = Release|x86
 		{DFBA0CE4-B20C-43E1-9742-A11C974001CC}.Release|x86.Build.0 = Release|x86
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

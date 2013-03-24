@@ -50,7 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PointsManager.cs" />
-    <Compile Include="KDTree.cs" />
     <Compile Include="LdrawColorManager.cs" />
     <Compile Include="LdrawMatrix.cs" />
     <Compile Include="LdrawToData.cs" />
@@ -78,6 +77,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KDTreeDLL\KDTreeDLL.csproj">
+      <Project>{0B9DF5C1-9B8A-42C4-BF66-9DDCBA055F03}</Project>
+      <Name>KDTreeDLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

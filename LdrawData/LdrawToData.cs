@@ -160,7 +160,7 @@ namespace LdrawData
             // Try to find full path for file.
             fullpathfile = findfile(data[14]);
 
-            Debug.WriteLine("full file is " + fullpathfile);
+            //Debug.WriteLine("full file is " + fullpathfile);
             //Debug.WriteLine("just file is " + data[14]);
 
 
@@ -214,7 +214,7 @@ namespace LdrawData
             else
                 polylist.Add(new PolyShape(3, color, linecount, stepcount, pd1, pd3, pd2, 0));
 
-            Debug.WriteLine("polylist added one - TYPE 3");
+            //Debug.WriteLine("polylist added one - TYPE 3");
 
         }
 
@@ -255,7 +255,7 @@ namespace LdrawData
             else
                 polylist.Add(new PolyShape(4, color, linecount, stepcount, pd1, pd4, pd3, pd2));
 
-            Debug.WriteLine("polylist added one - TYPE 4");
+            //Debug.WriteLine("polylist added one - TYPE 4");
 
         }
 
@@ -357,7 +357,7 @@ namespace LdrawData
         private void depth(int x)
         {
             d += x;
-            Debug.WriteLine("depth" + d.ToString() + "################################################ depth " + d.ToString());
+            //Debug.WriteLine("depth" + d.ToString() + "################################################ depth " + d.ToString());
         }
 
         // Actual processing file section
@@ -681,6 +681,8 @@ namespace LdrawData
             stopConvert = ProcessStatus.NOTSTARTED;
             matrices.Clear();
 
+
+            PM.clear();
             //debug.Close();
 
             return x;
