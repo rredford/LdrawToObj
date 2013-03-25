@@ -79,21 +79,31 @@ namespace LdrawData
                 {
                     // if its not first subpart, make next one. if it is, just keep adding parts
                     // Because MPD format specify that main part also has a filename parameter.
+
+                    String ff = lines[2];
+
+                    // In rare cases, there are spaces in filename!
+                    if (lines.Length > 3)
+                    {
+                        for (int q = 3; q < lines.Length; q++)
+                            ff = ff + " " + lines[q];
+                    }
+
                     if (!first)
                     {
-                        Debug.WriteLine("subpart! name is " + lines[2]);
+                        Debug.WriteLine("subpart! name is " + ff);
 
                         subparts.Add(sub);
                         //Now make new subpart and set it.
                         sub = new MPDSubPart();
                         sub.data = "";
                     }
-                    sub.filename = lines[2]; // Set filename (always third parameter after 0 FILE).
+                    sub.filename = ff; // Set filename (always third parameter after 0 FILE).
                     first = false;           // Now that we got first filename (root one), set to false so new filename line means ts a submodel.
                 }
                 else
                 {
-                    // Add current line to current subline.
+                    // Add current line to current subfile.
                     sub.data = sub.data + "\n" + line;
                 }
                 line = mpdRead.ReadLine();

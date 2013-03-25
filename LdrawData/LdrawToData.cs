@@ -43,6 +43,8 @@ namespace LdrawData
         int updatecounter = 0;                         // Subpart force update progress
         const int subMax = 20;                         // How many subparts before force update?
 
+        public String Error = "No error, or didn't assign string to error type";
+
         List<PolyShape> polylist;
 
         public delegate void PercentUpdateHandler(int percent);
@@ -79,18 +81,14 @@ namespace LdrawData
         private String findfile(String file)
         {
             // Try to find what directory this file is in. Its most likely in P, parts...
-            //Parts is most common, followed by P.
-            if (File.Exists(sourceDir + "\\PARTS\\" + file))
-            {
-                return sourceDir + "\\PARTS\\" + file;
-            }
-            if (File.Exists(sourceDir + "\\PARTS\\S\\" + file))
-            {
-                return sourceDir + "\\PARTS\\S\\" + file;
-            }
+            // Follows standard ldraw order.
             if (File.Exists(sourceDir + "\\P\\" + file))
             {
                 return sourceDir + "\\P\\" + file;
+            }            
+            if (File.Exists(sourceDir + "\\PARTS\\" + file))
+            {
+                return sourceDir + "\\PARTS\\" + file;
             }
             if (File.Exists(sourceDir + "\\MODELS\\" + file))
             {
@@ -120,6 +118,15 @@ namespace LdrawData
             String fullpathfile;
             int res;
 
+            String ff = data[14];
+
+            // In rare cases, there are spaces in filename!
+            if (data.Length > 15)
+            {
+                for (int q = 15; q < data.Length; q++)
+                    ff = ff + " " + data[q];
+            }
+
             // Debug
             // debug.WriteLine("peeking matrices - data: " + top.color + " " + top.x + " " +
             //    top.y + " " + top.z + " " + top.a + " " + top.b + " " + top.c + " " + top.d + " " +
@@ -127,7 +134,7 @@ namespace LdrawData
 
             // First, was this file excluded?
             // if so, just return to caller.
-            if (isExcluded(data[14]))
+            if (isExcluded(ff))
                 return 0;
 
             // Process data into proper formats
@@ -158,7 +165,7 @@ namespace LdrawData
 
             // Okay the setup is ready... 
             // Try to find full path for file.
-            fullpathfile = findfile(data[14]);
+            fullpathfile = findfile(ff);
 
             //Debug.WriteLine("full file is " + fullpathfile);
             //Debug.WriteLine("just file is " + data[14]);
@@ -494,7 +501,7 @@ namespace LdrawData
                             break;
                         case "1":// new subpart file...
                             //Debug.Write("subpart found... legit: ");
-                            if (s.Length < 14)
+                            if (s.Length < 15)
                             {
                                 //Debug.WriteLine("no!");
                                 // error!
@@ -606,7 +613,6 @@ namespace LdrawData
             // Process have started
             stopConvert = ProcessStatus.STARTED;
 
-            PM.clear();
 
             // Check if all strings is not empty
             if (sou.CompareTo("") == 0 || inp.CompareTo("") == 0 || outp.CompareTo("") == 0)
