@@ -1,0 +1,1322 @@
+# Made by Rolf Redford
+#
+# File for standard LDraw colors.
+# I made this file by making basic ldraw to mtl convertor but not sure on accuracy of colors.
+
+# Black
+newmtl Ldraw0
+Ka 0.020 0.075 0.114
+kd 0.980 0.925 0.886
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Blue
+newmtl Ldraw1
+Ka 0.000 0.333 0.749
+kd 1.000 0.667 0.251
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Green
+newmtl Ldraw2
+Ka 0.145 0.478 0.243
+kd 0.855 0.522 0.757
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Turquoise
+newmtl Ldraw3
+Ka 0.000 0.514 0.561
+kd 1.000 0.486 0.439
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Red
+newmtl Ldraw4
+Ka 0.788 0.102 0.035
+kd 0.212 0.898 0.965
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+
+# Dark_Pink
+newmtl Ldraw5
+Ka 0.784 0.439 0.627
+kd 0.216 0.561 0.373
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Brown
+newmtl Ldraw6
+Ka 0.345 0.224 0.153
+kd 0.655 0.776 0.847
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Gray
+newmtl Ldraw7
+Ka 0.608 0.631 0.616
+kd 0.392 0.369 0.384
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+Ns 1.0
+
+
+# Dark_Gray
+newmtl Ldraw8
+Ka 0.427 0.431 0.361
+kd 0.573 0.569 0.639
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Blue
+newmtl Ldraw9
+Ka 0.706 0.824 0.890
+kd 0.294 0.176 0.110
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Bright_Green
+newmtl Ldraw10
+Ka 0.294 0.624 0.290
+kd 0.706 0.376 0.710
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Turquoise
+newmtl Ldraw11
+Ka 0.333 0.647 0.686
+kd 0.667 0.353 0.314
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Salmon
+newmtl Ldraw12
+Ka 0.949 0.439 0.369
+kd 0.051 0.561 0.631
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Pink
+newmtl Ldraw13
+Ka 0.988 0.592 0.675
+kd 0.012 0.408 0.325
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Yellow
+newmtl Ldraw14
+Ka 0.949 0.804 0.216
+kd 0.051 0.196 0.784
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# White
+newmtl Ldraw15
+Ka 1.000 1.000 1.000
+kd 0.000 0.000 0.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Green
+newmtl Ldraw17
+Ka 0.761 0.855 0.722
+kd 0.239 0.145 0.278
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Yellow
+newmtl Ldraw18
+Ka 0.984 0.902 0.588
+kd 0.016 0.098 0.412
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Tan
+newmtl Ldraw19
+Ka 0.894 0.804 0.620
+kd 0.106 0.196 0.380
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Violet
+newmtl Ldraw20
+Ka 0.788 0.792 0.886
+kd 0.212 0.208 0.114
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Purple
+newmtl Ldraw22
+Ka 0.506 0.000 0.482
+kd 0.494 1.000 0.518
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Blue_Violet
+newmtl Ldraw23
+Ka 0.125 0.196 0.690
+kd 0.875 0.804 0.310
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Orange
+newmtl Ldraw25
+Ka 0.996 0.541 0.094
+kd 0.004 0.459 0.906
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Magenta
+newmtl Ldraw26
+Ka 0.573 0.224 0.471
+kd 0.427 0.776 0.529
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Lime
+newmtl Ldraw27
+Ka 0.733 0.914 0.043
+kd 0.267 0.086 0.957
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Tan
+newmtl Ldraw28
+Ka 0.584 0.541 0.451
+kd 0.416 0.459 0.549
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Bright_Pink
+newmtl Ldraw29
+Ka 0.894 0.678 0.784
+kd 0.106 0.322 0.216
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Lavender
+newmtl Ldraw30
+Ka 0.675 0.471 0.729
+kd 0.325 0.529 0.271
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Lavender
+newmtl Ldraw31
+Ka 0.882 0.835 0.929
+kd 0.118 0.165 0.071
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Very_Light_Orange
+newmtl Ldraw68
+Ka 0.953 0.812 0.608
+kd 0.047 0.188 0.392
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Purple
+newmtl Ldraw69
+Ka 0.804 0.384 0.596
+kd 0.196 0.616 0.404
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Reddish_Brown
+newmtl Ldraw70
+Ka 0.345 0.165 0.071
+kd 0.655 0.835 0.929
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Bluish_Gray
+newmtl Ldraw71
+Ka 0.627 0.647 0.663
+kd 0.373 0.353 0.337
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Bluish_Gray
+newmtl Ldraw72
+Ka 0.424 0.431 0.408
+kd 0.576 0.569 0.592
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Blue
+newmtl Ldraw73
+Ka 0.361 0.616 0.820
+kd 0.639 0.384 0.180
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Green
+newmtl Ldraw74
+Ka 0.451 0.863 0.631
+kd 0.549 0.137 0.369
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Pink
+newmtl Ldraw77
+Ka 0.996 0.800 0.812
+kd 0.004 0.200 0.188
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Flesh
+newmtl Ldraw78
+Ka 0.965 0.843 0.702
+kd 0.035 0.157 0.298
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Dark_Flesh
+newmtl Ldraw84
+Ka 0.800 0.439 0.165
+kd 0.200 0.561 0.835
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Purple
+newmtl Ldraw85
+Ka 0.247 0.212 0.569
+kd 0.753 0.788 0.431
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Flesh
+newmtl Ldraw86
+Ka 0.486 0.314 0.227
+kd 0.514 0.686 0.773
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Blue_Violet
+newmtl Ldraw89
+Ka 0.298 0.380 0.859
+kd 0.702 0.620 0.141
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Flesh
+newmtl Ldraw92
+Ka 0.816 0.569 0.408
+kd 0.184 0.431 0.592
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Salmon
+newmtl Ldraw100
+Ka 0.996 0.729 0.741
+kd 0.004 0.271 0.259
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Violet
+newmtl Ldraw110
+Ka 0.263 0.329 0.639
+kd 0.737 0.671 0.361
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Violet
+newmtl Ldraw112
+Ka 0.408 0.455 0.792
+kd 0.592 0.545 0.208
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Lime
+newmtl Ldraw115
+Ka 0.780 0.824 0.235
+kd 0.220 0.176 0.765
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Aqua
+newmtl Ldraw118
+Ka 0.702 0.843 0.820
+kd 0.298 0.157 0.180
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Lime
+newmtl Ldraw120
+Ka 0.851 0.894 0.655
+kd 0.149 0.106 0.345
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Orange
+newmtl Ldraw125
+Ka 0.976 0.729 0.380
+kd 0.024 0.271 0.620
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Very_Light_Bluish_Gray
+newmtl Ldraw151
+Ka 0.902 0.890 0.878
+kd 0.098 0.110 0.122
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Bright_Light_Orange
+newmtl Ldraw191
+Ka 0.973 0.733 0.239
+kd 0.027 0.267 0.761
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Bright_Light_Blue
+newmtl Ldraw212
+Ka 0.525 0.757 0.882
+kd 0.475 0.243 0.118
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rust
+newmtl Ldraw216
+Ka 0.702 0.063 0.016
+kd 0.298 0.937 0.984
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Bright_Light_Yellow
+newmtl Ldraw226
+Ka 1.000 0.941 0.227
+kd 0.000 0.059 0.773
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Sky_Blue
+newmtl Ldraw232
+Ka 0.337 0.745 0.839
+kd 0.663 0.255 0.161
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Blue
+newmtl Ldraw272
+Ka 0.051 0.196 0.357
+kd 0.949 0.804 0.643
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Green
+newmtl Ldraw288
+Ka 0.094 0.275 0.196
+kd 0.906 0.725 0.804
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Brown
+newmtl Ldraw308
+Ka 0.208 0.129 0.000
+kd 0.792 0.871 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Maersk_Blue
+newmtl Ldraw313
+Ka 0.329 0.663 0.784
+kd 0.671 0.337 0.216
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Red
+newmtl Ldraw320
+Ka 0.447 0.055 0.059
+kd 0.553 0.945 0.941
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Azure
+newmtl Ldraw321
+Ka 0.078 0.596 0.843
+kd 0.922 0.404 0.157
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Azure
+newmtl Ldraw322
+Ka 0.243 0.761 0.867
+kd 0.757 0.239 0.133
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Light_Aqua
+newmtl Ldraw323
+Ka 0.741 0.863 0.847
+kd 0.259 0.137 0.153
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Yellowish_Green
+newmtl Ldraw326
+Ka 0.875 0.933 0.647
+kd 0.125 0.067 0.353
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Olive_Green
+newmtl Ldraw330
+Ka 0.608 0.604 0.353
+kd 0.392 0.396 0.647
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Sand_Red
+newmtl Ldraw335
+Ka 0.839 0.459 0.447
+kd 0.161 0.541 0.553
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Dark_Pink
+newmtl Ldraw351
+Ka 0.969 0.522 0.694
+kd 0.031 0.478 0.306
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Earth_Orange
+newmtl Ldraw366
+Ka 0.980 0.612 0.110
+kd 0.020 0.388 0.890
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Sand_Purple
+newmtl Ldraw373
+Ka 0.518 0.369 0.518
+kd 0.482 0.631 0.482
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Sand_Green
+newmtl Ldraw378
+Ka 0.627 0.737 0.675
+kd 0.373 0.263 0.325
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Sand_Blue
+newmtl Ldraw379
+Ka 0.349 0.443 0.518
+kd 0.651 0.557 0.482
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Fabuland_Brown
+newmtl Ldraw450
+Ka 0.714 0.482 0.314
+kd 0.286 0.518 0.686
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Medium_Orange
+newmtl Ldraw462
+Ka 1.000 0.655 0.043
+kd 0.000 0.345 0.957
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Dark_Orange
+newmtl Ldraw484
+Ka 0.663 0.333 0.000
+kd 0.337 0.667 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Very_Light_Gray
+newmtl Ldraw503
+Ka 0.902 0.890 0.855
+kd 0.098 0.110 0.145
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Trans_Clear
+newmtl Ldraw47
+Ka 0.988 0.988 0.988
+kd 0.012 0.012 0.012
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Black
+newmtl Ldraw40
+Ka 0.388 0.373 0.322
+kd 0.612 0.627 0.678
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Red
+newmtl Ldraw36
+Ka 0.788 0.102 0.035
+kd 0.212 0.898 0.965
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Neon_Orange
+newmtl Ldraw38
+Ka 1.000 0.502 0.051
+kd 0.000 0.498 0.949
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Orange
+newmtl Ldraw57
+Ka 0.941 0.561 0.110
+kd 0.059 0.439 0.890
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Neon_Yellow
+newmtl Ldraw54
+Ka 0.855 0.690 0.000
+kd 0.145 0.310 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Yellow
+newmtl Ldraw46
+Ka 0.961 0.804 0.184
+kd 0.039 0.196 0.816
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Neon_Green
+newmtl Ldraw42
+Ka 0.753 1.000 0.000
+kd 0.247 0.000 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Bright_Green
+newmtl Ldraw35
+Ka 0.337 0.902 0.275
+kd 0.663 0.098 0.725
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Green
+newmtl Ldraw34
+Ka 0.137 0.471 0.255
+kd 0.863 0.529 0.745
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Dark_Blue
+newmtl Ldraw33
+Ka 0.000 0.125 0.627
+kd 1.000 0.875 0.373
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Medium_Blue
+newmtl Ldraw41
+Ka 0.333 0.604 0.718
+kd 0.667 0.396 0.282
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Light_Blue
+newmtl Ldraw43
+Ka 0.682 0.914 0.937
+kd 0.318 0.086 0.063
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Very_Light_Blue
+newmtl Ldraw39
+Ka 0.757 0.875 0.941
+kd 0.243 0.125 0.059
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Light_Purple
+newmtl Ldraw44
+Ka 0.588 0.439 0.624
+kd 0.412 0.561 0.376
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Purple
+newmtl Ldraw52
+Ka 0.647 0.647 0.796
+kd 0.353 0.353 0.204
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Dark_Pink
+newmtl Ldraw37
+Ka 0.875 0.400 0.584
+kd 0.125 0.600 0.416
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Trans_Pink
+newmtl Ldraw45
+Ka 0.988 0.592 0.675
+kd 0.012 0.408 0.325
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Chrome_Gold
+newmtl Ldraw334
+Ka 0.733 0.647 0.239
+kd 0.267 0.353 0.761
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Chrome_Silver
+newmtl Ldraw383
+Ka 0.878 0.878 0.878
+kd 0.122 0.122 0.122
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Chrome_Antique_Brass
+newmtl Ldraw60
+Ka 0.392 0.353 0.298
+kd 0.608 0.647 0.702
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Chrome_Black
+newmtl Ldraw64
+Ka 0.106 0.165 0.204
+kd 0.894 0.835 0.796
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Chrome_Blue
+newmtl Ldraw61
+Ka 0.424 0.588 0.749
+kd 0.576 0.412 0.251
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Chrome_Green
+newmtl Ldraw62
+Ka 0.235 0.702 0.443
+kd 0.765 0.298 0.557
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Chrome_Pink
+newmtl Ldraw63
+Ka 0.667 0.302 0.557
+kd 0.333 0.698 0.443
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Pearl_White
+newmtl Ldraw183
+Ka 0.949 0.953 0.949
+kd 0.051 0.047 0.051
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Pearl_Very_Light_Grey
+newmtl Ldraw150
+Ka 0.733 0.741 0.737
+kd 0.267 0.259 0.263
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Pearl_Light_Gray
+newmtl Ldraw135
+Ka 0.612 0.639 0.659
+kd 0.388 0.361 0.341
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Flat_Silver
+newmtl Ldraw179
+Ka 0.537 0.529 0.533
+kd 0.463 0.471 0.467
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Pearl_Dark_Gray
+newmtl Ldraw148
+Ka 0.341 0.345 0.341
+kd 0.659 0.655 0.659
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Metal_Blue
+newmtl Ldraw137
+Ka 0.337 0.467 0.729
+kd 0.663 0.533 0.271
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Pearl_Light_Gold
+newmtl Ldraw142
+Ka 0.863 0.745 0.380
+kd 0.137 0.255 0.620
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Pearl_Gold
+newmtl Ldraw297
+Ka 0.800 0.612 0.169
+kd 0.200 0.388 0.831
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Flat_Dark_Gold
+newmtl Ldraw178
+Ka 0.706 0.533 0.243
+kd 0.294 0.467 0.757
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Copper
+newmtl Ldraw134
+Ka 0.588 0.290 0.153
+kd 0.412 0.710 0.847
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Metallic_Silver
+newmtl Ldraw80
+Ka 0.647 0.663 0.706
+kd 0.353 0.337 0.294
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Metallic_Green
+newmtl Ldraw81
+Ka 0.537 0.608 0.373
+kd 0.463 0.392 0.627
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Metallic_Gold
+newmtl Ldraw82
+Ka 0.549 0.361 0.125
+kd 0.451 0.639 0.875
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Metallic_Black
+newmtl Ldraw83
+Ka 0.102 0.157 0.192
+kd 0.898 0.843 0.808
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Metallic_Dark_Gray
+newmtl Ldraw87
+Ka 0.427 0.431 0.361
+kd 0.573 0.569 0.639
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Milky_White
+newmtl Ldraw79
+Ka 1.000 1.000 1.000
+kd 0.000 0.000 0.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.878
+d 0.878
+
+# Glow_In_Dark_Opaque
+newmtl Ldraw21
+Ka 0.878 1.000 0.690
+kd 0.122 0.000 0.310
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.980
+d 0.980
+
+# Glow_In_Dark_Trans
+newmtl Ldraw294
+Ka 0.741 0.776 0.678
+kd 0.259 0.224 0.322
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.980
+d 0.980
+
+# Glitter_Trans_Dark_Pink
+newmtl Ldraw114
+Ka 0.875 0.400 0.584
+kd 0.125 0.600 0.416
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Glitter_Trans_Clear
+newmtl Ldraw117
+Ka 1.000 1.000 1.000
+kd 0.000 0.000 0.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Glitter_Trans_Purple
+newmtl Ldraw129
+Ka 0.392 0.000 0.380
+kd 0.608 1.000 0.620
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Speckle_Black_Silver
+newmtl Ldraw132
+Ka 0.000 0.000 0.000
+kd 1.000 1.000 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Speckle_Black_Gold
+newmtl Ldraw133
+Ka 0.000 0.000 0.000
+kd 1.000 1.000 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Speckle_Black_Copper
+newmtl Ldraw75
+Ka 0.000 0.000 0.000
+kd 1.000 1.000 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Speckle_Dark_Bluish_Gray_Silver
+newmtl Ldraw76
+Ka 0.388 0.373 0.380
+kd 0.612 0.627 0.620
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Yellow
+newmtl Ldraw65
+Ka 0.961 0.804 0.184
+kd 0.039 0.196 0.816
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Trans_Yellow
+newmtl Ldraw66
+Ka 0.792 0.690 0.000
+kd 0.208 0.310 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Rubber_Trans_Clear
+newmtl Ldraw67
+Ka 1.000 1.000 1.000
+kd 0.000 0.000 0.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.502
+d 0.502
+
+# Rubber_Black
+newmtl Ldraw256
+Ka 0.129 0.129 0.129
+kd 0.871 0.871 0.871
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Blue
+newmtl Ldraw273
+Ka 0.000 0.200 0.698
+kd 1.000 0.800 0.302
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Red
+newmtl Ldraw324
+Ka 0.769 0.000 0.149
+kd 0.231 1.000 0.851
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Orange
+newmtl Ldraw350
+Ka 0.816 0.400 0.063
+kd 0.184 0.600 0.937
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Light_Gray
+newmtl Ldraw375
+Ka 0.757 0.761 0.757
+kd 0.243 0.239 0.243
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Dark_Blue
+newmtl Ldraw406
+Ka 0.000 0.114 0.408
+kd 1.000 0.886 0.592
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Purple
+newmtl Ldraw449
+Ka 0.506 0.000 0.482
+kd 0.494 1.000 0.518
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Lime
+newmtl Ldraw490
+Ka 0.843 0.941 0.000
+kd 0.157 0.059 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Light_Bluish_Gray
+newmtl Ldraw496
+Ka 0.639 0.635 0.643
+kd 0.361 0.365 0.357
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_Flat_Silver
+newmtl Ldraw504
+Ka 0.537 0.529 0.533
+kd 0.463 0.471 0.467
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Rubber_White
+newmtl Ldraw511
+Ka 0.980 0.980 0.980
+kd 0.020 0.020 0.020
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Main_Colour
+newmtl Ldraw16
+Ka 0.498 0.498 0.498
+kd 0.502 0.502 0.502
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Edge_Colour
+newmtl Ldraw24
+Ka 0.498 0.498 0.498
+kd 0.502 0.502 0.502
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Trans_Black_IR_Lens
+newmtl Ldraw32
+Ka 0.000 0.000 0.000
+kd 1.000 1.000 1.000
+ks 0.6 0.6 0.6
+illum 2
+Tr 0.784
+d 0.784
+
+# Magnet
+newmtl Ldraw493
+Ka 0.396 0.404 0.380
+kd 0.604 0.596 0.620
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Electric_Contact_Alloy
+newmtl Ldraw494
+Ka 0.816 0.816 0.816
+kd 0.184 0.184 0.184
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
+# Electric_Contact_Copper
+newmtl Ldraw495
+Ka 0.682 0.478 0.349
+kd 0.318 0.522 0.651
+ks 0.6 0.6 0.6
+illum 2
+Tr 1.000
+d 1.000
+
